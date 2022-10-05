@@ -5,20 +5,19 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
-  <link rel="icon" href="img/favicon.png" type="image/png">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="assets/favicon.png" type="image/png">
 
   <title>Услугус - сервис услуг </title>
-</head>
+<script defer src="main.2e79f11753f51b680486.js"></script></head>
 <body>
 
 <!-- Header-->
 
 
   <header class="header">
-    <h1 class="visually-hidden">Услугус - сервис услуг</h1>
-    <div class="container header__container">
-      <img class="header__logo" src="img/logo.svg" alt="Логотип Услугус">
+    <div class="container">
+      <img class="header__logo" src="assets/logo.svg" alt="Логотип Услугус">
       <form class="header__search search" action="">
         <input type="text" class="search__input">
         <button class="search__submit" type="submit">
@@ -53,151 +52,85 @@
 <!-- main -->
 
   <main>
-    <!--   services   -->
-      <section class="services">
-        <h2 class="visually-hidden">Список специалистов</h2>
+    <div class="container">
 
-        <div class="container services__container">
-          <div class="services__category category">
-            <button class="category__title">
-              <span>Категории</span>
-              <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M16.25 7.5L10 13.75L3.75 7.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-              </svg>
-            </button>
-            <ul class="category__list">
-              <li class="category__item">
-                <button class="category__btn category__btn--photographer">Фотограф</button>
-              </li>
-              <li class="category__item">
-                <button class="category__btn category__btn--makeup">Визажист</button>
-              </li>
-              <li class="category__item">
-                <button class="category__btn category__btn--masseur">Массажист</button>
-              </li>
-              <li class="category__item">
-                <button class="category__btn category__btn--handyman">Муж на час</button>
-              </li>
-              <li class="category__item">
-                <button class="category__btn category__btn--cosmetologist">Косметолог</button>
-              </li>
-              <li class="category__item">
-                <button class="category__btn category__btn--electrician">Электрик</button>
-              </li>
-              <li class="category__item">
-                <button class="category__btn category__btn--manicurist">Мастер маникюра</button>
-              </li>
-              <li class="category__item">
-                <button class="category__btn category__btn--plumber">Сантехник</button>
-              </li>
-            </ul>
-          </div>
-          <ul class="services__list">
-            <li class="services__item">
-              <article class="service">
-                <img src="img/photo.png" alt="Аватар Иван" class="service__avatar">
-                <div class="service__present">
-                  <h3 class="service__title">Фотограф</h3>
-                  <p class="service__name">Иван П.</p>
-                </div>
+<!--   category   -->
 
-                <p class="service__price">от 4000 ₽</p>
-
-                <div class="service__review">
-                  <div class="service__stars">
-                    <img class="service__star" src="img/star.svg" alt="Рейтинг специалста 4 из 5">
-                    <img class="service__star" src="img/star.svg" alt="">
-                    <img class="service__star" src="img/star.svg" alt="">
-                    <img class="service__star" src="img/star.svg" alt="">
-                    <img class="service__star" src="img/star-o.svg" alt="">
-                  </div>
-                  <p class="service__count-review">4</p>
-                </div>
-              </article>
-            </li>
-            <li class="services__item">
-              <article class="service">
-                <img src="img/photo.png" alt="Аватар Иван" class="service__avatar">
-                <div class="service__present">
-                  <h3 class="service__title">Фотограф</h3>
-                  <p class="service__name">Иван П.</p>
-                </div>
-
-                <p class="service__price">от 4000 ₽</p>
-
-                <div class="service__review">
-                  <div class="service__stars">
-                    <img class="service__star" src="img/star.svg" alt="Рейтинг специалста 4 из 5">
-                    <img class="service__star" src="img/star.svg" alt="">
-                    <img class="service__star" src="img/star.svg" alt="">
-                    <img class="service__star" src="img/star.svg" alt="">
-                    <img class="service__star" src="img/star-o.svg" alt="">
-                  </div>
-                  <p class="service__count-review">4</p>
-                </div>
-              </article>
-            </li>
-            <li class="services__item">
-              <article class="service">
-                <img src="img/photo.png" alt="Аватар Иван" class="service__avatar">
-                <div class="service__present">
-                  <h3 class="service__title">Фотограф</h3>
-                  <p class="service__name">Иван П.</p>
-                </div>
-
-                <p class="service__price">от 4000 ₽</p>
-
-                <div class="service__review">
-                  <div class="service__stars">
-                    <img class="service__star" src="img/star.svg" alt="Рейтинг специалста 4 из 5">
-                    <img class="service__star" src="img/star.svg" alt="">
-                    <img class="service__star" src="img/star.svg" alt="">
-                    <img class="service__star" src="img/star.svg" alt="">
-                    <img class="service__star" src="img/star-o.svg" alt="">
-                  </div>
-                  <p class="service__count-review">4</p>
-                </div>
-              </article>
-            </li>
-            <li class="services__item">
-              <article class="service">
-                <img src="img/photo.png" alt="Аватар Иван" class="service__avatar">
-                <div class="service__present">
-                  <h3 class="service__title">Фотограф</h3>
-                  <p class="service__name">Иван П.</p>
-                </div>
-
-                <p class="service__price">от 4000 ₽</p>
-
-                <div class="service__review">
-                  <div class="service__stars">
-                    <img class="service__star" src="img/star.svg" alt="Рейтинг специалста 4 из 5">
-                    <img class="service__star" src="img/star.svg" alt="">
-                    <img class="service__star" src="img/star.svg" alt="">
-                    <img class="service__star" src="img/star.svg" alt="">
-                    <img class="service__star" src="img/star-o.svg" alt="">
-                  </div>
-                  <p class="service__count-review">4</p>
-                </div>
-              </article>
-            </li>
-          </ul>
-        </div>
+      <section class="category">
+        <button class="category__title">
+          Категории
+        </button>
+        <ul class="category__list">
+          <li class="category__item">
+            <button class="category__btn category__btn--photographer">Фотограф</button>
+          </li>
+          <li class="category__item">
+            <button class="category__btn category__btn--makeup">Визажист</button>
+          </li>
+          <li class="category__item">
+            <button class="category__btn category__btn--masseur">Массажист</button>
+          </li>
+          <li class="category__item">
+            <button class="category__btn category__btn--handyman">Муж на час</button>
+          </li>
+          <li class="category__item">
+            <button class="category__btn category__btn--cosmetologist">Косметолог</button>
+          </li>
+          <li class="category__item">
+            <button class="category__btn category__btn--electrician">Электрик</button>
+          </li>
+          <li class="category__item">
+            <button class="category__btn category__btn-manicurist">Мастер маникюра</button>
+          </li>
+          <li class="category__item">
+            <button class="category__btn category__btn--plumber">Сантехник</button>
+          </li>
+        </ul>
       </section>
+
+        <!--   services   -->
+
+      <section class="services">
+        <h2>Список специалистов</h2>
+        <ul class="service__list">
+          <li class="service__item">
+            <article class="service">
+              <img src="assets/photo.png" alt="Аватар Иван" class="services__avatar">
+              <div class="service__present">
+                <h3 class="service__title">Фотограф</h3>
+                <p class="service__name">Иван П.</p>
+              </div>
+
+              <p class="service__price">от 4000 ₽</p>
+
+              <div class="service__review">
+                <div class="service__stars">
+                  <img class="service__star" src="assets/star.svg" alt="Рейтинг специалста 4 из 5">
+                  <img class="service__star" src="assets/star.svg" alt="">
+                  <img class="service__star" src="assets/star.svg" alt="">
+                  <img class="service__star" src="assets/star.svg" alt="">
+                  <img class="service__star" src="assets/star-o.svg" alt="">
+                </div>
+                <p class="service__count-review">4</p>
+              </div>
+            </article>
+          </li>
+        </ul>
+      </section>
+    </div>
+
   </main>
 
       <!-- footer -->
 
-  <footer class="footer">
-    <div class="container footer__container">
-      <img class="footer__logo" src="img/logo.svg" alt="Логотип Услугус">
+  <footer>
+    <img class="footer__logo" src="assets/logo.svg" alt="Логотип Услугус">
 
-      <p class="footer__copyright">© Услугус, 2022</p>
+    <p class="footer__copyright">© Услугус, 2022</p>
 
-      <div class="footer__contact">
-        <p class="footer__contact-name">Design by Ekaterina Ivanova</p>
-        <p>Tg: <a href="https://t.me/Mrshmallowww" target="_blank">@Mrshmallowww</a></p>
-      </div>
+    <div class="footer__contact">
+      <p>Design by Ekaterina Ivanova</p>
+      <p>Tg: <a href="https://t.me/Mrshmallowww" target="_blank">@Mrshmallowww</a></p>
     </div>
   </footer>
 
@@ -207,7 +140,7 @@
     <div class="modal__body">
 
       <div class="service">
-        <img src="img/photo.png" alt="Аватар Иван" class="service__avatar">
+        <img src="assets/photo.png" alt="Аватар Иван" class="services__avatar">
         <div class="service__present">
           <h3 class="service__title">Фотограф</h3>
           <p class="service__name">Иван П.</p>
@@ -222,11 +155,11 @@
 
         <div class="service__review">
           <div class="service__stars stars">
-            <img class="stars__item" src="img/star.svg" alt="Рейтинг специалста 4 из 5">
-            <img class="stars__item" src="img/star.svg" alt="">
-            <img class="stars__item" src="img/star.svg" alt="">
-            <img class="stars__item" src="img/star.svg" alt="">
-            <img class="stars__item" src="img/star-o.svg" alt="">
+            <img class="stars__item" src="assets/star.svg" alt="Рейтинг специалста 4 из 5">
+            <img class="stars__item" src="assets/star.svg" alt="">
+            <img class="stars__item" src="assets/star.svg" alt="">
+            <img class="stars__item" src="assets/star.svg" alt="">
+            <img class="stars__item" src="assets/star-o.svg" alt="">
           </div>
           <p class="service__count-review">4</p>
         </div>
@@ -234,7 +167,7 @@
 
       <div class="about">
         <h3 class="about__title">О себе</h3>
-        <p class="about__text">Фотограф с 10 летним стажем Основные направления съёмки: Пейзаж, Портретная съёмка, Реклама, Репортаж, Свадебная съёмка, Food фотосъёмка, съёмка автомобилей.<br>
+        <p class="abot__text">Фотограф с 10 летним стажем Основные направления съёмки: Пейзаж, Портретная съёмка, Реклама, Репортаж, Свадебная съёмка, Food фотосъёмка, съёмка автомобилей.<br>
           Ответственный, пунктуальный, исполнительный</p>
 
       </div>
@@ -244,12 +177,12 @@
         <ul class="review__list">
           <li class="review__item">
             <h4 class="review__title">Антон</h4>
-            <div class="review__stars stars">
-              <img class="stars__item" src="img/star.svg" alt="Рейтинг специалста 5 из 5">
-              <img class="stars__item" src="img/star.svg" alt="">
-              <img class="stars__item" src="img/star.svg" alt="">
-              <img class="stars__item" src="img/star.svg" alt="">
-              <img class="stars__item" src="img/star.svg" alt="">
+            <div class="service__stars stars">
+              <img class="stars__item" src="assets/star.svg" alt="Рейтинг специалста 5 из 5">
+              <img class="stars__item" src="assets/star.svg" alt="">
+              <img class="stars__item" src="assets/star.svg" alt="">
+              <img class="stars__item" src="assets/star.svg" alt="">
+              <img class="stars__item" src="assets/star.svg" alt="">
             </div>
             <p class="review__text">
               Быстро, профессионально, качественно! Работой очень доволен! Рекомендую!
@@ -379,7 +312,7 @@
           </p>
         </fieldset>
         
-        <div class="form__avatar avatar">
+        <div class="form_avatar avatar">
           <label class="avatar__label">
             <span class="avatar__text">Установить аватар</span>
             <span class="avatar__input-wrapper">

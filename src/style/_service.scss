@@ -1,0 +1,54 @@
+.service {
+  padding: 24px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  display: grid;
+  grid-template-areas:
+  'avatar present price'
+  '. . review';
+  grid-template-columns: 50px 1fr max-content;
+  gap: 20px 24px;
+
+}
+
+.service__avatar {
+  grid-area: avatar;
+}
+
+.service__present {
+  grid-area: present;
+}
+
+.service__title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.service__name {
+  font-weight: 300;
+}
+
+.service__price {
+  grid-area: price;
+  font-size: 24px;
+  text-align: right;
+}
+
+.service__review {
+  grid-area: review;
+  display: flex;
+  gap: 16px;
+}
+
+.service__stars {
+
+  display: flex;
+  gap: 2px;
+  align-items: center;
+}
+
+
+.service__count-review {
+  padding: 18px;
+  background: url("img/icon-comment.svg ") left/14px no-repeat;
+}
