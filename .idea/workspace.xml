@@ -2,35 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="26d1fd59-3f4b-4512-a42d-18aa11e5f14a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/fonts/roboto-v30-cyrillic-300.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/roboto-v30-cyrillic-300.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/roboto-v30-cyrillic-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/roboto-v30-cyrillic-regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/cosmetologist.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/electrician.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/handyman.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/makeup.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/manicurist.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/masseur.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/photographer.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/plumber.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/style/_category.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/style/_footer.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/style/_modal.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/style/_service.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/style/_services.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/email.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/eye-hide.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/eye-show.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/phone.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/style/_about.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/style/_avatar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/style/_form.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/style/_person.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/style/_review.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/style/_stars.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/montserrat-v23-latin_cyrillic-700.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/montserrat-v23-latin_cyrillic-700.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/montserrat-v23-latin_cyrillic-regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/montserrat-v23-latin_cyrillic-regular.woff2" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style/_fonts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/_fonts.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/_modal.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/_modal.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/_service.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/_service.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/style/_style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/_style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style/_var.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/_var.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
