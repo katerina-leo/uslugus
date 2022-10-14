@@ -9,7 +9,8 @@ import {avatarController} from "./modules/avatarController";
 import {getCategory} from "./modules/getCategory";
 import {renderList} from "./modules/renderList";
 import {searchControl} from "./modules/searchControl";
-import {categoryController} from "./modules/categoryController";
+// import {categoryController} from "./modules/categoryController";
+import {ratingController} from "./modules/ratingController";
 
 
 const init = () => {
@@ -78,7 +79,9 @@ const init = () => {
 
     searchControl();
 
-    categoryController();
+    ratingController();
+
+    // categoryController();
 
 };
 
