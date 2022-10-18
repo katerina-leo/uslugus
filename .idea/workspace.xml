@@ -2,13 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="26d1fd59-3f4b-4512-a42d-18aa11e5f14a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/modules/ratingController.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/style/_rating.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/auth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/postData.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/sign.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/categoryController.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/categoryController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/avatarController.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/avatarController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/modalController.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/modalController.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
