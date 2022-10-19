@@ -1,6 +1,5 @@
 import './index.html';
 import './index.scss';
-import code from './img/code.png'
 import {modalController} from "./modules/modalController";
 import {selectController} from "./modules/selectController";
 import {showPassword} from "./modules/showPassword";
@@ -13,9 +12,15 @@ import {ratingController} from "./modules/ratingController";
 import {signInController, signUpController} from "./modules/sign";
 import {API_URL} from "./modules/const";
 import {getData} from "./modules/getData";
+import {renderModal} from "./modules/renderModal";
 
 
-const init = () => {
+const init = async () => {
+
+    await getCategory();
+
+    renderList();
+
     const eventModalSignIn = modalController({
         modal: '.modal--sign-in',
         btnOpen: '.header__auth-btn_sign-in',
@@ -37,9 +42,9 @@ const init = () => {
         btnOpen: '.service',
         parentBtns: '.services__list',
         btnClose: '.modal__close',
-        handlerOpenModal: async ({handler}) => {
-            const data = await getData(`${API_URL}/api/service/${handler.dataset.id}`)
-            console.log(data);
+        handlerOpenModal: async ({handler, modalElem}) => {
+            const data = await getData(`${API_URL}/api/service/${handler.dataset.id}`) //запрос на сервер и
+            renderModal(modalElem, data); //приходят данные
 
 
             const comments = document.querySelectorAll('.review__text');
@@ -72,19 +77,8 @@ const init = () => {
     });
 
     showPassword();
-
     choicesController();
-
-
-
-    getCategory();
-
-    renderList();
-
     searchControl();
-
-    ratingController();
-
     signUpController(eventModalSignUp.closeModal);
     signInController(eventModalSignIn.closeModal);
 
