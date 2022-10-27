@@ -4,7 +4,7 @@ import starOSVG from '../img/star-o.svg';
 export const createStars = (commentsOrStars) => {
     const stars = Array.isArray(commentsOrStars)
         ? Math.round(
-        commentsOrStars.reduce((acc, item) => item.stars + acc, 0) /
+        commentsOrStars.reduce((acc, item) => +item.stars + acc, 0) /
         commentsOrStars.length) || 0
         : commentsOrStars;
 

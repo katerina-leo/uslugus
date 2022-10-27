@@ -8,11 +8,14 @@ export const choicesController = () => {
 
     };
 
-    new Choices('.form__select--category', {...option, classNames: {
+    const selectCategory = document.querySelector('.form__select--category');
+    selectCategory._choices = new Choices(selectCategory, {...option, classNames: {
             containerOuter: 'choices form__select--category'
         }});
 
-    new Choices('.form__select--price', {...option, classNames: {
+
+    const selectDirection = document.querySelector('.form__select--price');
+    selectDirection._choices = new Choices(selectDirection, {...option, classNames: {
             containerOuter: 'choices form__select--price'
         }});
 }

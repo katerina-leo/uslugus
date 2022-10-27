@@ -7,12 +7,12 @@ import {choicesController} from "./modules/choicesController";
 import {getCategory} from "./modules/getCategory";
 import {renderList} from "./modules/renderList";
 import {searchControl} from "./modules/searchControl";
-// import {categoryController} from "./modules/categoryController";
 import {ratingController} from "./modules/ratingController";
 import {signInController, signUpController} from "./modules/sign";
 import {API_URL} from "./modules/const";
 import {getData} from "./modules/getData";
 import {renderModal} from "./modules/renderModal";
+
 
 
 const init = async () => {
@@ -42,9 +42,9 @@ const init = async () => {
         btnOpen: '.service',
         parentBtns: '.services__list',
         btnClose: '.modal__close',
-        handlerOpenModal: async ({handler, modalElem}) => {
+        handlerOpenModal: async ({handler, modalElem, closeModal}) => {
             const data = await getData(`${API_URL}/api/service/${handler.dataset.id}`) //запрос на сервер и
-            renderModal(modalElem, data); //приходят данные
+            renderModal(modalElem, data, closeModal); //приходят данные
 
 
             const comments = document.querySelectorAll('.review__text');
@@ -72,7 +72,8 @@ const init = async () => {
         openBlock: '.category__list',
         closeBtn: '.category__btn',
         handlerChange: (value) => {
-            console.log(value)
+            // renderList(`${API_URL}/api/service?category=${value}`)
+            renderList(value);
         },
     });
 
@@ -82,7 +83,7 @@ const init = async () => {
     signUpController(eventModalSignUp.closeModal);
     signInController(eventModalSignIn.closeModal);
 
-    // categoryController();
+
 
 };
 

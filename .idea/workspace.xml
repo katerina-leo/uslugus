@@ -2,15 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="26d1fd59-3f4b-4512-a42d-18aa11e5f14a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/modules/createElement.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/createReview.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/renderModal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/commentFormController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/style/_auth.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/auth.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/categoryController.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/choicesController.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/choicesController.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/modules/createStars.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/createStars.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/modalController.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/modalController.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/modules/ratingController.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/ratingController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style/_review.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/_review.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/renderList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/renderList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/renderModal.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/renderModal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/selectController.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/selectController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/sign.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/sign.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,6 +119,30 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/modules/renderModal.js</url>
+          <line>203</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/modules/renderModal.js</url>
+          <line>212</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/modules/renderModal.js</url>
+          <line>214</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -5,10 +5,11 @@ import {createStars} from "./createStars";
 import {createReview} from "./createReview";
 import {ratingController} from "./ratingController";
 
-export  const renderModal = (parent, data) => {
-    parent.textContent = "";
+import {commentFormController} from "./commentFormController";
+import {postData} from "./postData";
 
-    console.log(data)
+export  const renderModal = (parent, data, closeModal) => {
+    parent.textContent = "";
 
     const body = createElement('div', {
         className: 'modal__body'
@@ -136,6 +137,8 @@ export  const renderModal = (parent, data) => {
         className: 'person__form form form_add-review',
     }, container);
 
+    formReview.dataset.id = data.id;
+
     const fieldset = createElement('fieldset', {
         className: 'form__fieldset form__fieldset--add-review',
     }, formReview);
@@ -151,6 +154,7 @@ export  const renderModal = (parent, data) => {
 
     createElement('input', {
         className: 'form__input',
+        name: 'name',
     }, labelName);
 
     const labelPhone = createElement('label', {
@@ -160,10 +164,12 @@ export  const renderModal = (parent, data) => {
     createElement('span', {
         className: 'form__text',
         textContent: 'Телефон',
+
     }, labelPhone);
 
     createElement('input', {
         className: 'form__input',
+        name: 'phone',
     }, labelPhone);
 
     const labelComment = createElement('label', {
@@ -177,6 +183,7 @@ export  const renderModal = (parent, data) => {
 
     createElement('textarea', {
         className: 'form__textarea',
+        name: 'text',
     }, labelComment);
 
     //addReview
@@ -199,11 +206,11 @@ export  const renderModal = (parent, data) => {
     const ratingInput = createElement('input', {
         className: 'rating__input',
         type: 'hidden',
-        name: 'rating',
+        name: 'stars',
     }, rating);
 
 
-    ratingController(ratingInput);
+    ratingController(rating, ratingInput);
 
     createElement('button', {
         className: 'form__submit',
@@ -217,6 +224,8 @@ export  const renderModal = (parent, data) => {
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" xmlns="http://www.w3.org/2000/svg">
                 <path d="M18.75 5.25L5.25 18.75"  stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                 <path d="M18.75 18.75L5.25 5.25"  stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-            </svg>`
+            </svg>`;
+
+    commentFormController(formReview, closeModal);
 
 }
